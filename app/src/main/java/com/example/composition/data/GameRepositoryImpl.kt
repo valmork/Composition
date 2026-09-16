@@ -40,7 +40,7 @@ object GameRepositoryImpl: GameRepository {
                     8
                 )
             }
-            Level.EASE -> GameSettings(
+            Level.EASY -> GameSettings(
                 10,
                 10,
                 70,
