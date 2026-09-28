@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.parcelize)
-
+    alias(libs.plugins.navigation.safeargs)
 }
 
 android {
@@ -51,4 +51,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //Navigation
+    implementation(libs.navigation.fragment)
+    implementation(libs.navigation.ui)
+
 }
