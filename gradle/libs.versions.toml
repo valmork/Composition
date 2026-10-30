@@ -1,6 +1,6 @@
 [versions]
 agp = "8.13.2"
-kotlin = "2.0.21"
+kotlin = "2.2.0"
 coreKtx = "1.18.0"
 junit = "4.13.2"
 junitVersion = "1.3.0"
@@ -10,6 +10,8 @@ material = "1.13.0"
 activity = "1.13.0"
 constraintlayout = "2.2.1"
 navigation = "2.8.0"
+kapt ="2.2.0"
+
 
 
 [libraries]
@@ -32,6 +34,8 @@ kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
 #Navigation safeargs
 navigation-safeargs = { id = "androidx.navigation.safeargs", version.ref = "navigation" }
+#Kapt
+kapt = {id = "org.jetbrains.kotlin.kapt", version.ref ="kapt"}
 
 
 
